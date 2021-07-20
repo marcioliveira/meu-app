@@ -8,6 +8,7 @@ import App5 from "./components/App5";
 import App6 from "./components/App6";
 import "./style.css";
 import reportWebVitals from "./reportWebVitals";
+import Lista from "./components/Lista";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -31,6 +32,7 @@ ReactDOM.render(
     <App4 />
     <App5 />
     <App6 />
+    <Lista />
   </React.StrictMode>,
   document.getElementById("root")
 );

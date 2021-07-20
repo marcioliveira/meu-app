@@ -12,7 +12,7 @@ class App2 extends React.Component {
         <div id="text">{this.props.text}</div>
         <div id="text">{this.props.children}</div>
         <p>
-          ola! Esse é o conteudo do meu componente estático tipo classe App2{" "}
+          ola! Esse é o conteudo do meu componente estático tipo classe App2
         </p>
       </div>
     );
