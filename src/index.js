@@ -6,9 +6,10 @@ import App3 from "./components/App3";
 import App4 from "./components/App4";
 import App5 from "./components/App5";
 import App6 from "./components/App6";
+import Formulario from "./components/Formulario";
+import { Lista, Item } from "./components/Lista";
 import "./style.css";
 import reportWebVitals from "./reportWebVitals";
-import Lista from "./components/Lista";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -32,7 +33,18 @@ ReactDOM.render(
     <App4 />
     <App5 />
     <App6 />
-    <Lista />
+    <Lista>
+      <Item key={999} id={999} completo={false}>
+        Teste
+      </Item>
+      <Item key={998} id={998} completo={true}>
+        Teste2
+      </Item>
+      <Item key={997} id={997} completo={false}>
+        Teste3
+      </Item>
+    </Lista>
+    <Formulario />
   </React.StrictMode>,
   document.getElementById("root")
 );
